@@ -10,19 +10,19 @@
         }
     ],
     "support": {
-        "issues": "https://github.com/hyn/multi-tenant/issues",
-        "source": "https://github.com/hyn/webserver",
+        "issues": "https://github.com/orbex/multi-tenant/issues",
+        "source": "https://github.com/orbex/webserver",
         "docs": "https://hyn.readme.io"
     },
     "require": {
         "php" : ">=5.5.9",
-        "hyn/multi-tenant": "*",
+        "orbex/multi-tenant": "*",
         "phpseclib/phpseclib": "^2.0"
     },
     "require-dev": {
         "mockery/mockery": "*",
         "fzaninotto/faker": "*",
-        "laravel/laravel": "5.1.*"
+        "laravel/laravel": ">=5.1.0"
     },
     "autoload": {
         "psr-4": {
